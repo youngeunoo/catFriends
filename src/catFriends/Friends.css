@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+section {
+  border: 5px solid #fafaa1;
+  width: 400px;
+  border-radius: 5px;
+  padding: 30px 50px;
+  margin: 10px auto;
+  position: relative;
+  background-color: rgb(255, 227, 246);
+  font-family: 'S-CoreDream-3Light';
+}
+
+label {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: .8rem;
+  background-color: #cdffcd;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+span {
+  display: inline-block;
+  transform: translateY(-1px);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+
+}
+
+li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fffef7;
+  border-radius: 5px;
+  padding: 15px;
+  transition: 0.3s;
+}
+
+h2,
+h3 {
+  margin: 5px 0;
+}
+
+h4 {
+  margin: 20px 0 0;
+}
+
+img {
+  border-radius: 50%;
+  grid-row: 1/4;
+  width: 150px;
+}
+
+button {
+  border: none;
+  width: 80px;
+  background-color: #fafaa1;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'S-CoreDream-3Light';
+
+  &:hover {
+    background-color: #cdffcd;
+  }
+}
+
+input {
+  padding: 5px;
+  outline: none;
+}
+
+.box {
+  background-color: #fffef7;
+  padding: 5px 20px;
+  margin: 10px 0 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: center;
+}
+
+.boxBtn {
+  width: 50px;
+  padding: 0;
+  margin: 0 0 10px;
+}
